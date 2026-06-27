@@ -28,7 +28,7 @@ const projects: Project[] = [
       "A collaborative platform that connects learners with skill-based opportunities. Built with a team under the Xylem Group. Features authentication, user profiles, and a structured skill-matching system — currently under active development.",
     stack: ["Next.js", "Supabase", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/SkillBridge-Xylem-Group/SkillBridge",
-    year: "2024",
+    year: "2026",
     isLatest: true,
     inProgress: true,
     image:
@@ -40,7 +40,7 @@ const projects: Project[] = [
       "A platform that leverages AI to assist with risk assessment and security auditing. Automates vulnerability analysis, generates audit reports, and helps identify potential security risks across systems and applications.",
     stack: ["Python", "AI/ML", "REST API"],
     github: "https://github.com/ValZ908/AI-Assisted-Risk-Assessment-Security-Audit-Platform-master",
-    year: "2024",
+    year: "2026",
     image:
       "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80",
   },
@@ -50,7 +50,7 @@ const projects: Project[] = [
       "A full-featured food delivery application built as part of a student software innovation project. Covers restaurant listings, menu management, order placement, and delivery tracking.",
     stack: ["Web", "Database", "REST API"],
     github: "https://github.com/ValZ908/SSIP-PROJECT-FOOD-DELIVERY-MAIN",
-    year: "2024",
+    year: "2025",
     isOldest: true,
     image:
       "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
