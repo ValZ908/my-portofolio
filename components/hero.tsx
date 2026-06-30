@@ -73,13 +73,6 @@ export function Hero() {
           >
             Get In Touch
           </a>
-          <a
-            href="/resume.pdf"
-            download
-            className="rounded-full border border-white/15 bg-white/5 backdrop-blur-sm px-6 py-2.5 text-sm font-medium hover:bg-white/15 transition-all"
-          >
-            Download CV
-          </a>
         </div>
 
         {/* Social links */}
