@@ -87,7 +87,7 @@ export function Hero() {
             <GithubIcon className="size-4" />
           </a>
           <a
-            href="https://linkedin.com/in/diah-safitri-pane"
+            href="https://www.linkedin.com/in/diah-safitri-pane-a5982b325/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"

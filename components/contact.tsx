@@ -52,7 +52,7 @@ export function Contact() {
           </a>
 
           <a
-            href="https://linkedin.com/in/diah-safitri-pane"
+            href="https://www.linkedin.com/in/diah-safitri-pane-a5982b325/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm px-5 py-4 text-sm hover:border-white/25 hover:bg-white/10 transition-all w-full sm:w-auto justify-center"
