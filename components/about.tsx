@@ -76,7 +76,7 @@ export function About() {
               >
                 <div className="mb-3">{item.icon}</div>
                 <h3 className="font-semibold text-sm mb-1">{item.title}</h3>
-                <p className="text-xs text-muted-foreground leading-relaxed">
+                <p className="text-sm text-muted-foreground leading-relaxed">
                   {item.description}
                 </p>
               </div>
