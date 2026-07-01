@@ -41,20 +41,20 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Text */}
           <div className="space-y-4 text-base leading-relaxed">
-            <p className="text-cyan-300/90">
+            <p className="text-muted-foreground">
               I&apos;m Diah Safitri Pane, a backend developer in the making who
               finds joy in everything that happens <em>under the hood</em> of a
               web application. While the frontend dazzles users, I&apos;m drawn
               to the systems that make it all work — the servers, the databases,
               the queues, and the APIs.
             </p>
-            <p className="text-sky-200/80">
+            <p className="text-muted-foreground">
               My journey started with curiosity: <em>how does data get from
               point A to point B securely and efficiently?</em> That question
               pulled me deep into backend development, and I haven&apos;t looked
               back since.
             </p>
-            <p className="text-blue-200/80">
+            <p className="text-muted-foreground">
               I&apos;m currently focused on mastering Node.js and modern backend
               patterns. I believe great backend code is invisible to end users —
               it just works, fast and reliably.
