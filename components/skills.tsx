@@ -9,11 +9,11 @@ const skillGroups = [
   },
   {
     category: "Databases",
-    skills: ["MySQL", "Redis", "Supabase"],
+    skills: ["MySQL", "Supabase"],
   },
   {
     category: "APIs",
-    skills: ["REST", "GraphQL", "WebSocket", "JWT / OAuth2"],
+    skills: ["REST", "JWT / OAuth2"],
   },
   {
     category: "DevOps & Tools",
