@@ -72,7 +72,7 @@ export function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="group rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm overflow-hidden hover:border-white/20 hover:bg-white/8 transition-all"
+              className="group rounded-2xl border border-gray-200 dark:border-white/10 bg-gray-50/80 dark:bg-white/5 backdrop-blur-sm overflow-hidden hover:border-gray-300 dark:hover:border-white/20 hover:bg-gray-100/80 dark:hover:bg-white/8 transition-all"
             >
               <div className="grid md:grid-cols-[2fr_1fr] gap-0">
                 {/* Content */}
@@ -81,17 +81,17 @@ export function Projects() {
                     <h3 className="text-xl font-semibold">{project.title}</h3>
                     <div className="flex gap-2">
                       {project.inProgress && (
-                        <span className="rounded-full bg-amber-500/20 border border-amber-500/30 text-amber-300 text-[10px] font-medium px-2 py-0.5">
+                        <span className="rounded-full bg-amber-100 dark:bg-amber-500/20 border border-amber-300 dark:border-amber-500/30 text-amber-700 dark:text-amber-300 text-xs font-semibold px-2.5 py-0.5">
                           In Progress
                         </span>
                       )}
                       {project.isLatest && !project.inProgress && (
-                        <span className="rounded-full bg-blue-500/20 border border-blue-500/30 text-blue-300 text-[10px] font-medium px-2 py-0.5">
+                        <span className="rounded-full bg-blue-100 dark:bg-blue-500/20 border border-blue-300 dark:border-blue-500/30 text-blue-700 dark:text-blue-300 text-xs font-semibold px-2.5 py-0.5">
                           Latest
                         </span>
                       )}
                       {project.isOldest && (
-                        <span className="rounded-full bg-muted/60 border border-white/10 text-muted-foreground text-[10px] font-medium px-2 py-0.5">
+                        <span className="rounded-full bg-gray-100 dark:bg-muted/60 border border-gray-300 dark:border-white/10 text-gray-600 dark:text-muted-foreground text-xs font-semibold px-2.5 py-0.5">
                           First Project
                         </span>
                       )}
@@ -106,7 +106,7 @@ export function Projects() {
                     {project.stack.map((tech) => (
                       <span
                         key={tech}
-                        className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-muted-foreground"
+                        className="rounded-full border border-gray-200 dark:border-white/10 bg-gray-100/80 dark:bg-white/5 px-3 py-1 text-xs text-muted-foreground"
                       >
                         {tech}
                       </span>
@@ -148,9 +148,9 @@ export function Projects() {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="absolute inset-0 h-full w-full object-cover opacity-30 group-hover:opacity-50 dark:opacity-30 dark:group-hover:opacity-50 transition-opacity duration-500 brightness-75 dark:brightness-100"
+                    className="absolute inset-0 h-full w-full object-cover opacity-65 group-hover:opacity-80 dark:opacity-30 dark:group-hover:opacity-50 transition-opacity duration-500 brightness-95 dark:brightness-100"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/40 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-background/70 via-background/30 to-transparent dark:from-background/90 dark:via-background/40" />
                 </div>
               </div>
             </article>

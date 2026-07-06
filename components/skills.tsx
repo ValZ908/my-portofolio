@@ -36,7 +36,7 @@ export function Skills() {
           {skillGroups.map((group) => (
             <div
               key={group.category}
-              className="rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm p-5 hover:border-white/20 transition-all"
+              className="rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50/80 dark:bg-white/5 backdrop-blur-sm p-5 hover:border-gray-300 dark:hover:border-white/20 transition-all"
             >
               <h3 className="text-xs font-semibold uppercase tracking-widest text-blue-400 mb-4">
                 {group.category}

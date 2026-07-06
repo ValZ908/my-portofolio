@@ -72,7 +72,7 @@ export function About() {
             {highlights.map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm p-4 hover:border-white/20 hover:bg-white/10 transition-all"
+                className="rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50/80 dark:bg-white/5 backdrop-blur-sm p-4 hover:border-gray-300 dark:hover:border-white/20 hover:bg-gray-100/80 dark:hover:bg-white/10 transition-all"
               >
                 <div className="mb-3">{item.icon}</div>
                 <h3 className="font-semibold text-sm mb-1">{item.title}</h3>

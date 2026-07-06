@@ -69,7 +69,7 @@ export function Hero() {
           </a>
           <a
             href="#contact"
-            className="rounded-full border border-white/20 bg-white/10 backdrop-blur-sm px-6 py-2.5 text-sm font-medium hover:bg-white/20 transition-all"
+            className="rounded-full border border-gray-300 dark:border-white/20 bg-gray-50/80 dark:bg-white/10 backdrop-blur-sm px-6 py-2.5 text-sm font-semibold text-gray-800 dark:text-foreground hover:bg-gray-100 dark:hover:bg-white/20 transition-all"
           >
             Get In Touch
           </a>

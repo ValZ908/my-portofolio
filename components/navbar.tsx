@@ -58,7 +58,7 @@ export function Navbar() {
         className={cn(
           "mx-auto flex max-w-6xl items-center justify-between px-6 py-4 transition-all duration-300",
           scrolled
-            ? "backdrop-blur-md bg-background/60 border-b border-white/10 shadow-sm"
+            ? "backdrop-blur-md bg-background/60 border-b border-gray-200 dark:border-white/10 shadow-sm"
             : "bg-transparent"
         )}
       >
@@ -92,7 +92,7 @@ export function Navbar() {
             <button
               onClick={() => setTheme(isDark ? "light" : "dark")}
               aria-label="Toggle theme"
-              className="rounded-full border border-white/15 bg-white/5 p-2 hover:bg-white/15 transition-all"
+              className="rounded-full border border-gray-200 dark:border-white/15 bg-gray-50/80 dark:bg-white/5 p-2 hover:bg-gray-100 dark:hover:bg-white/15 transition-all"
             >
               {isDark ? <Sun className="size-4" /> : <Moon className="size-4" />}
             </button>
@@ -100,7 +100,7 @@ export function Navbar() {
 
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm hover:bg-white/20 transition-all"
+            className="inline-flex items-center gap-2 rounded-full border border-gray-200 dark:border-white/20 bg-gray-50/80 dark:bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm hover:bg-gray-100 dark:hover:bg-white/20 transition-all"
           >
             Hire Me
           </a>
@@ -112,7 +112,7 @@ export function Navbar() {
             <button
               onClick={() => setTheme(isDark ? "light" : "dark")}
               aria-label="Toggle theme"
-              className="rounded-full border border-white/15 bg-white/5 p-2 hover:bg-white/15 transition-all"
+              className="rounded-full border border-gray-200 dark:border-white/15 bg-gray-50/80 dark:bg-white/5 p-2 hover:bg-gray-100 dark:hover:bg-white/15 transition-all"
             >
               {isDark ? <Sun className="size-4" /> : <Moon className="size-4" />}
             </button>
@@ -134,7 +134,7 @@ export function Navbar() {
           open ? "max-h-80" : "max-h-0"
         )}
       >
-        <ul className="flex flex-col gap-4 px-6 py-4 backdrop-blur-md bg-background/90 border-b border-white/10">
+        <ul className="flex flex-col gap-4 px-6 py-4 backdrop-blur-md bg-background/90 border-b border-gray-200 dark:border-white/10">
           {links.map((l) => (
             <li key={l.href}>
               <a
@@ -155,7 +155,7 @@ export function Navbar() {
             <a
               href="#contact"
               onClick={() => setOpen(false)}
-              className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm hover:bg-white/20 transition-all"
+              className="inline-flex items-center gap-2 rounded-full border border-gray-200 dark:border-white/20 bg-gray-50/80 dark:bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm hover:bg-gray-100 dark:hover:bg-white/20 transition-all"
             >
               Hire Me
             </a>
