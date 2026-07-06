@@ -29,7 +29,7 @@ export function Hero() {
         <div className="size-[600px] rounded-full bg-blue-500/10 blur-[120px]" />
       </div>
 
-      <div className="relative z-10 flex flex-col items-center gap-6 max-w-4xl">
+      <div className="relative z-10 flex flex-col items-center gap-6 max-w-4xl pb-16 sm:pb-0">
         {/* Badge */}
         <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 backdrop-blur-sm px-4 py-1.5 text-xs text-muted-foreground">
           <span className="size-1.5 rounded-full bg-green-400 animate-pulse" />
