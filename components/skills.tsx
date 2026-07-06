@@ -1,7 +1,7 @@
 const skillGroups = [
   {
     category: "Languages",
-    skills: ["JavaScript", "TypeScript", "Python", "SQL"],
+    skills: ["Python", "JavaScript", "TypeScript", "SQL"],
   },
   {
     category: "Frameworks & Runtime",
@@ -9,15 +9,15 @@ const skillGroups = [
   },
   {
     category: "Databases",
-    skills: ["MySQL", "Supabase"],
+    skills: ["Supabase", "MySQL"],
   },
   {
     category: "APIs",
-    skills: ["REST", "JWT / OAuth2"],
+    skills: ["JWT / OAuth2", "REST"],
   },
   {
     category: "DevOps & Tools",
-    skills: ["Docker", "Git & GitHub", "Linux", "Postman"],
+    skills: ["Git & GitHub", "Docker", "Linux", "Postman"],
   },
 ];
 

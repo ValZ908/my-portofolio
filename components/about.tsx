@@ -61,7 +61,7 @@ export function About() {
             </p>
             <a
               href="#contact"
-              className="inline-block mt-2 text-sm text-blue-400 hover:text-blue-300 transition-colors font-medium"
+              className="inline-flex items-center gap-2 mt-2 rounded-full border border-blue-500/40 bg-blue-500/10 backdrop-blur-sm px-5 py-2 text-sm text-blue-300 hover:bg-blue-500/20 hover:border-blue-500/60 transition-all font-medium"
             >
               Let&apos;s build something together →
             </a>

@@ -126,5 +126,6 @@
   }
   html {
     @apply font-sans scroll-smooth;
+    font-size: 13px;
   }
 }

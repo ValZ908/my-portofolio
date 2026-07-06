@@ -148,9 +148,9 @@ export function Projects() {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="absolute inset-0 h-full w-full object-cover opacity-30 group-hover:opacity-50 transition-opacity duration-500"
+                    className="absolute inset-0 h-full w-full object-cover opacity-30 group-hover:opacity-50 dark:opacity-30 dark:group-hover:opacity-50 transition-opacity duration-500 brightness-75 dark:brightness-100"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/40 to-transparent" />
                 </div>
               </div>
             </article>
