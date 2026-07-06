@@ -38,14 +38,14 @@ export function Skills() {
               key={group.category}
               className="rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50/80 dark:bg-white/5 backdrop-blur-sm p-5 hover:border-gray-300 dark:hover:border-white/20 transition-all"
             >
-              <h3 className="text-xs font-semibold uppercase tracking-widest text-blue-400 mb-4">
+              <h3 className="text-sm font-semibold uppercase tracking-widest text-blue-400 mb-4">
                 {group.category}
               </h3>
               <ul className="space-y-2">
                 {group.skills.map((skill) => (
                   <li
                     key={skill}
-                    className="flex items-center gap-2 text-sm text-muted-foreground"
+                    className="flex items-center gap-2 text-base text-muted-foreground"
                   >
                     <span className="size-1 rounded-full bg-blue-400/70 shrink-0" />
                     {skill}
