@@ -75,8 +75,8 @@ export function About() {
                 className="rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50/80 dark:bg-white/5 backdrop-blur-sm p-4 hover:border-gray-300 dark:hover:border-white/20 hover:bg-gray-100/80 dark:hover:bg-white/10 transition-all"
               >
                 <div className="mb-3">{item.icon}</div>
-                <h3 className="font-semibold text-sm mb-1">{item.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <h3 className="font-semibold text-base mb-1">{item.title}</h3>
+                <p className="text-base text-muted-foreground leading-relaxed">
                   {item.description}
                 </p>
               </div>

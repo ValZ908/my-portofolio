@@ -98,7 +98,7 @@ export function Projects() {
                     </div>
                   </div>
 
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                  <p className="text-base text-muted-foreground leading-relaxed">
                     {project.description}
                   </p>
 
@@ -106,7 +106,7 @@ export function Projects() {
                     {project.stack.map((tech) => (
                       <span
                         key={tech}
-                        className="rounded-full border border-gray-200 dark:border-white/10 bg-gray-100/80 dark:bg-white/5 px-3 py-1 text-xs text-muted-foreground"
+                        className="rounded-full border border-gray-200 dark:border-white/10 bg-gray-100/80 dark:bg-white/5 px-3 py-1 text-sm text-muted-foreground"
                       >
                         {tech}
                       </span>
@@ -119,9 +119,9 @@ export function Projects() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
+                        className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
                       >
-                        <GithubIcon className="size-3.5" />
+                        <GithubIcon className="size-4" />
                         Source
                       </a>
                     )}
@@ -130,13 +130,13 @@ export function Projects() {
                         href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
+                        className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
                       >
-                        <ExternalLink className="size-3.5" />
+                        <ExternalLink className="size-4" />
                         Live
                       </a>
                     )}
-                    <span className="ml-auto text-xs text-muted-foreground/60">
+                    <span className="ml-auto text-sm text-muted-foreground/60">
                       {project.year}
                     </span>
                   </div>

@@ -17,10 +17,10 @@ export function Experience() {
                 <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
                   <div>
                     <h3 className="font-semibold text-base">Bachelor of Computer Science</h3>
-                    <p className="text-sm text-blue-400">President University</p>
+                    <p className="text-base text-blue-400">President University</p>
                   </div>
                   <div className="flex flex-col items-end gap-1">
-                    <span className="text-xs text-muted-foreground whitespace-nowrap">
+                    <span className="text-sm text-muted-foreground whitespace-nowrap">
                       2024 – Present
                     </span>
                     <span className="text-xs font-semibold uppercase tracking-wide px-2.5 py-0.5 rounded-full border border-blue-300 dark:border-blue-500/30 bg-blue-100 dark:bg-blue-500/10 text-blue-700 dark:text-blue-300">
@@ -28,7 +28,7 @@ export function Experience() {
                     </span>
                   </div>
                 </div>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-base text-muted-foreground leading-relaxed">
                   Focusing on software engineering, algorithms, and database systems.
                   Active in the campus programming club and open-source community.
                 </p>

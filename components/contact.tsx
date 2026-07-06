@@ -35,7 +35,7 @@ export function Contact() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="mailto:Diahsafitripane@gmail.com"
-            className="flex items-center gap-3 rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50/80 dark:bg-white/5 backdrop-blur-sm px-5 py-4 text-sm hover:border-gray-300 dark:hover:border-white/25 hover:bg-gray-100/80 dark:hover:bg-white/10 transition-all w-full sm:w-auto justify-center"
+            className="flex items-center gap-3 rounded-2xl border border-gray-200/80 dark:border-white/15 bg-white/70 dark:bg-white/5 backdrop-blur-md px-6 py-4 text-base font-medium shadow-lg shadow-black/5 dark:shadow-black/20 hover:border-gray-300 dark:hover:border-white/30 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-xl transition-all w-full sm:w-auto justify-center"
           >
             <Mail className="size-4 text-blue-400 shrink-0" />
             Diahsafitripane@gmail.com
@@ -45,7 +45,7 @@ export function Contact() {
             href="https://github.com/ValZ908"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50/80 dark:bg-white/5 backdrop-blur-sm px-5 py-4 text-sm hover:border-gray-300 dark:hover:border-white/25 hover:bg-gray-100/80 dark:hover:bg-white/10 transition-all w-full sm:w-auto justify-center"
+            className="flex items-center gap-3 rounded-2xl border border-gray-200/80 dark:border-white/15 bg-white/70 dark:bg-white/5 backdrop-blur-md px-6 py-4 text-base font-medium shadow-lg shadow-black/5 dark:shadow-black/20 hover:border-gray-300 dark:hover:border-white/30 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-xl transition-all w-full sm:w-auto justify-center"
           >
             <GithubIcon className="size-4 text-blue-400 shrink-0" />
             github.com/ValZ908
@@ -55,14 +55,14 @@ export function Contact() {
             href="https://www.linkedin.com/in/diah-safitri-pane-a5982b325/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50/80 dark:bg-white/5 backdrop-blur-sm px-5 py-4 text-sm hover:border-gray-300 dark:hover:border-white/25 hover:bg-gray-100/80 dark:hover:bg-white/10 transition-all w-full sm:w-auto justify-center"
+            className="flex items-center gap-3 rounded-2xl border border-gray-200/80 dark:border-white/15 bg-white/70 dark:bg-white/5 backdrop-blur-md px-6 py-4 text-base font-medium shadow-lg shadow-black/5 dark:shadow-black/20 hover:border-gray-300 dark:hover:border-white/30 hover:bg-white/90 dark:hover:bg-white/10 hover:shadow-xl transition-all w-full sm:w-auto justify-center"
           >
             <LinkedinIcon className="size-4 text-blue-400 shrink-0" />
             Diah Safitri Pane
           </a>
         </div>
 
-        <div className="flex items-center justify-center gap-1.5 mt-8 text-xs text-muted-foreground">
+        <div className="flex items-center justify-center gap-1.5 mt-8 text-sm text-muted-foreground">
           <MapPin className="size-3.5" />
           Indonesia · GMT+7
         </div>
